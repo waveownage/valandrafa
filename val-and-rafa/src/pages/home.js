@@ -1,5 +1,5 @@
 import React from 'react';
-import image from './photo1.jfif';
+import image from './homepic.jpg';
 import image2 from './wreath.png'
 import './home.css';
 

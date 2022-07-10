@@ -9,9 +9,16 @@ import Registry from './pages/registry';
 import Travel from './pages/travel';
 import QA from './pages/q-a';
 import Moments from './pages/moments';
+import { Container } from './components/Container';
 
 
 function App() {
+  const triggerText = 'RSVP';
+  const onSubmit = (event) => {
+    event.preventDefault(event);
+    console.log(event.target.name.value);
+    console.log(event.target.email.value);
+  };
   return (
     <div className="App">
       <div className="whitebackgound">
@@ -31,13 +38,7 @@ function App() {
             <Route exact path='/MOMENTS'element={<Moments/>}/>
           </Routes>
         </Router>
-        <div class="box-bar">
-        <div class="box-3">
-          <div class="btn btn-three">
-            <span>RSVP</span>
-          </div>
-        </div>
-        </div>
+        <Container className = "popup" triggerText={triggerText} onSubmit={onSubmit} />
       </div>
     </div>
     
