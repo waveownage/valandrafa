@@ -60,6 +60,9 @@ code {
     max-width: 30em;
     max-height: calc(100% - 1em);
   }
+  html,body{
+    overflow-x: hidden;
+}
 }
 
 ._modal-close {

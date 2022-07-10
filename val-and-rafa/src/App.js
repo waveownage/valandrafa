@@ -16,8 +16,20 @@ function App() {
   const triggerText = 'RSVP';
   const onSubmit = (event) => {
     event.preventDefault(event);
-    console.log(event.target.name.value);
+    console.log(event.target.firstname.value);
+    console.log(event.target.lastname.value);
     console.log(event.target.email.value);
+    console.log(event.target.flexCheckDefault1.value);
+    console.log(event.target.flexCheckDefault2.value);
+    console.log(event.target.flexCheckDefault3.value);
+    console.log(event.target.flexCheckDefault4.value);
+    console.log(event.target.flexCheckDefault5.value);
+    console.log(event.target.flexCheckDefault6.value);
+    console.log(event.target.flexCheckDefault7.value);
+    this.setState({ isShown: false });
+    this.TriggerButton.focus();
+    this.toggleScrollLock();
+
   };
   return (
     <div className="App">

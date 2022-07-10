@@ -17,3 +17,14 @@
 .spans {
     display: flex;
 }
+
+@media screen and (min-width: 500px) {
+    .bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+    }
+  }
