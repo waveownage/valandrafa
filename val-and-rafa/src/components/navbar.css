@@ -1,0 +1,13 @@
+.links {
+    color: grey;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: black;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-around;
+}

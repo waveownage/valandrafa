@@ -1,0 +1,33 @@
+.homephoto {
+   width : 40%;
+}
+.homepage {
+    display: flex;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.wreath {
+    margin-top: 5%;
+    width : 10%
+}
+
+.text1 {
+    font-size: medium;
+}
+
+.text2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+.text3 {
+    font-size: medium;
+    color: grey
+}
+
+.text4 {
+    font-size: medium;
+    color: grey;
+    margin-bottom: 3%;
+}
