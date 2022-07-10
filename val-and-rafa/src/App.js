@@ -8,7 +8,8 @@ import Schedule from './pages/schedule';
 import Registry from './pages/registry';
 import Travel from './pages/travel';
 import QA from './pages/q-a';
-import Moments from './pages/moments'
+import Moments from './pages/moments';
+import Popup from 'reactjs-popup';;
 
 function App() {
   return (
