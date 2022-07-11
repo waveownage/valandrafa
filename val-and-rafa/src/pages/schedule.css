@@ -1,0 +1,47 @@
+.wreath {
+    width: 20%
+}
+
+.schedulebox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.activitybox {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+.text5 {
+    color: grey;
+    font-size: 10px;
+}
+.textbox {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+
+.timebox {
+    width: 30%;
+    text-align: center;
+    margin-right: 5%;
+    padding-top: 1.8%;
+}
+.date {
+    width : 90%;
+}
+.addresslink {
+    text-decoration: none;
+    color: green 
+}
+
+.map {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 70%;
+}

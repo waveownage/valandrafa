@@ -41,7 +41,6 @@ function App() {
         <NAVBAR />
           <Routes>
             <Route exact path='/'element={<Home/>}/>
-            <Route exact path='/RSVP'element={<RSVP/>}/>
             <Route exact path='/CABINS'element={<Cabins/>}/>
             <Route exact path='/SCHEDULE'element={<Schedule/>}/>
             <Route exact path='/REGISTRY'element={<Registry/>}/>
