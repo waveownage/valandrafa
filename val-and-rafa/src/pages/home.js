@@ -36,6 +36,8 @@ if (monthcount === 10) {
 
 
 const Home = () =>{
+
+
   return (
     <div>
       <div className="homepage">
@@ -45,6 +47,10 @@ const Home = () =>{
       <h1 className ="text2">Lake Louisa</h1>
       <h1 className ="text3">Saturday, October 22, 2022</h1>
       <h1 className ="text4"> {month} months  {day} days</h1>
+      
+      
+
+
       </div>
     </div>
   );

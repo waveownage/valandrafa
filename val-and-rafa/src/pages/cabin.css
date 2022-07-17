@@ -1,0 +1,24 @@
+.cabinsbox {
+    width : 100% ;
+    padding : 5%
+}
+
+.videobox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center {
+    font-size: medium;
+    text-align: center;
+    margin-top: 2% ;
+}
+.spectext {
+    background-color: chartreuse;
+}
+.title {
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 2%;
+}

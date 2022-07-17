@@ -1,7 +1,7 @@
 import React from 'react';
 import './schedule.css';
 import image2 from './wreath.png'
-import image3 from './map.PNG'
+
 
 const Schedule = () =>{
   return (
