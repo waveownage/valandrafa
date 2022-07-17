@@ -42,6 +42,8 @@ const Home = () =>{
     <div>
       <div className="homepage">
       <img className="homephoto" src={image} alt="homephoto"/>
+      <h1 className ="text6">As their friends all know, Rafa and Valerie both love to travel, and the summer of 2019 was no exception. Rafa was leaving Brasil for the US, and his friend convinced him to download Tinder in order to meet new people. Meanwhile, Valerie was leaving the US for Korea and her friend convinced her to do the same. Neither knew it at the time, but they were both about to embark on one of the biggest adventures of their lives. 
+          When Valerie returned to Tampa, the universe (or Tinder?) brought her and Rafa together. The two went out on a romantic Italian dinner date, and the rest is history. They fit together so well, and found themselves falling so fast, it was hard at first to believe it was real. And yet, each moment only confirmed what they had known from the beginning, that they had finally found the person who felt like home.</h1>
       <img className="wreath" src={image2} alt="wreath"/>
       <h1 className ="text1">Come celebrate love with us!</h1>
       <h1 className ="text2">Lake Louisa</h1>
