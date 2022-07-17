@@ -62,7 +62,6 @@ code {
   }
   html,body{
     overflow-x: hidden;
-    height: "100%"
 }
 }
 @media screen and (max-width: 500px) {
@@ -72,6 +71,7 @@ code {
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    height: 100%;
 }
 }
 

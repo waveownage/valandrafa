@@ -1,6 +1,13 @@
 .registrybox {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
     margin-top: 5%;
     margin-bottom: 5%;
     padding : 5%;
     background-color: white;
+    width: 60%;
+}
+.venmophoto {
+    width :50%;
 }

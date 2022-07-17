@@ -1,18 +1,10 @@
 import React from 'react';
-import YouTube from 'react-youtube';
 import image from './valarievenmo.PNG';
 import "./cabin.css"
+import Youtube from './youtube';
+
 
 const cabins = () =>{
-
-  const opts = {
-    height: '390',
-    width: '640',
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
-    } }
-
 
   return (
     <div className="cabinsbox">
@@ -26,10 +18,9 @@ const cabins = () =>{
         big day and give you the chance to explore all the beautiful trails, fishing, swimming, and
         kayaking that Lake Louisa has to offer!
         </h3>
-        <div className="videobox">
-        <YouTube
-          videoId='E7JzUCci9iI'
-          opts={opts}
+        <div>
+        <Youtube
+          embedId='E7JzUCci9iI'
         />
         </div>
       <div className="accommodation">

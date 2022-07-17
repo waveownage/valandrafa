@@ -4,10 +4,17 @@
 }
 
 .videobox {
+    width: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
 }
+
+.videobox Youtube {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+  }
 
 .center {
     font-size: medium;
@@ -21,4 +28,7 @@
     font-size: medium;
     font-weight: bold;
     margin-top: 2%;
+}
+.video {
+    width : 50%
 }
