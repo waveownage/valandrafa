@@ -11,7 +11,7 @@ let msDay = 24 * 60 * 60 * 1000; // milliseconds per day
 
 let days = Math.floor((today - date) / msDay) +1;
 console.log(days)
-days = days * -1
+days = (days * -1) -1
 let day = 7
 console.log(days)
 
@@ -20,20 +20,17 @@ var monthcount = current.getMonth() +1
 console.log(monthcount)
 console.log(current)
 var month = 0
-if (monthcount === 7) {
-    month = 3
-    day= 1
-}
-if (monthcount === 8) {
+if (days > 60) {
     month = 2
     day= days - 60
 }
-if (monthcount === 9) {
+if (days > 30) {
     month = 1
     day= days - 30
 }
-if (monthcount === 10) {
-    month = 0
+else {
+  month = 0
+  day = days
 }
 
 

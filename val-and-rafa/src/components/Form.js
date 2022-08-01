@@ -7,7 +7,7 @@ export const Form = ({ onSubmit }) => {
 
     function refresh() {
       if(checked == true) {
-        window.location='valandrafa.com/CABINS'
+        window.location='/CABINS'
       }
       else {
         window.location.reload(false)
