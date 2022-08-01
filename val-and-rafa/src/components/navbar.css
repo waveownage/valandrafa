@@ -1,6 +1,7 @@
 .links {
     color: grey;
     text-decoration: none;
+    text-align: center;
 }
 
 .links:hover {
@@ -18,7 +19,7 @@
     display: flex;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .bar {
         display: flex;
         flex-direction: column;

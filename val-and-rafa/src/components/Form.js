@@ -1,25 +1,32 @@
 import React from 'react';
 
+
 export const Form = ({ onSubmit }) => {
+    const [checked, setChecked] = React.useState(false);
+
+
     function refresh() {
-        
+      if(checked == true) {
+        window.location='valandrafa.com/CABINS'
+      }
+      else {
+        window.location.reload(false)
+      }
     }
+
+
   
     return (
     <form onSubmit={onSubmit}>
         <div className="rsvptext">
-        <h1 className="text2">Val & Rafa</h1>
-        <h1 className="text3">Lake Louisa</h1>
-        <h1 className="text3">Saturday, October 22, 2022</h1>
-        <h1 className="text4">Enter your name and email to RSVP.</h1>
+        <h1 className="dancingtext1">Val & Rafa</h1>
+        <h1 className="dancingtext1">Lake Louisa</h1>
+        <h1 className="dancingtext1">Sat, October 22, 2022</h1>
+        <h1 className="Headerstext">Enter your name and email to RSVP.</h1>
         </div>
       <div className="form-group">
-        <label htmlFor="name">First Name</label>
+        <label  className="Headerstext" htmlFor="name">List Names of Party Members</label>
         <input className="form-control" id="firstname" />
-      </div>
-      <div className="form-group">
-        <label htmlFor="name">Last Name</label>
-        <input className="form-control" id="lastname" />
       </div>
       <div className="form-group">
         <label htmlFor="email">Email address</label>
@@ -47,7 +54,7 @@ export const Form = ({ onSubmit }) => {
 
         <h1 className="text1">Will you be reserving a lakeside cabin and staying in the park?</h1>
       <div className="form-check">
-        <input className="form-check-input" type="checkbox" value="Yes! Can't wait to dance the night away under the stars and wake up to coffee by the lake" id="flexCheckDefault3"/>
+        <input defaultChecked={checked} onChange={() => setChecked(!checked)} className="form-check-input" type="checkbox" value="Yes! Can't wait to dance the night away under the stars and wake up to coffee by the lake" id="flexCheckDefault3"/>
         <label className="form-check-label" for="flexCheckDefault">
         Yes! Can't wait to dance the night away under the stars and wake up to coffee by the lake
         </label>
@@ -73,9 +80,12 @@ export const Form = ({ onSubmit }) => {
         </label>
         </div>
       <div className="form-group">
-        <button onClick={refresh}className="form-control btn btn-success" type="submit">
+        <div className="box2">
+        <button onClick={refresh}
+          className="form-control btn btn-success" type="submit">
           Submit
         </button>
+        </div>
       </div>
     </form>
   );

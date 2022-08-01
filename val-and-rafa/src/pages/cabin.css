@@ -4,10 +4,12 @@
     height: 100%;
 }
 
+
 .videobox {
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .videobox Youtube {
@@ -32,4 +34,30 @@
 }
 .video {
     width : 50%
+}
+.venmophoto1 {
+    width: 30%;
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.formbox {
+    width: 80%;
+
+}
+.box2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    margin-top:10%;
+}
+
+li {
+    margin-top:3%;
 }

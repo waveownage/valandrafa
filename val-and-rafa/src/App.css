@@ -94,3 +94,35 @@
   flex-direction: column;
   align-items: center;
 }
+.headerstext {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: x-large;
+}
+.basictext {
+  font-family: 'Montserrat', sans-serif;
+  font-size: x-large;
+}
+.dancingtext {
+  font-family: 'Dancing Script', cursive;
+}
+.headerstext1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: x-large;
+}
+.basictext1 {
+  font-family: 'Montserrat', sans-serif;
+  text-indent: 10%;
+  font-size: x-large;
+}
+.dancingtext1 {
+  font-family: 'Dancing Script', cursive;
+}
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 52px;
+  text-align: center;
+}
+header {
+  width: 100%;
+  margin-bottom: 2%;
+}

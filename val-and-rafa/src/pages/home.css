@@ -14,27 +14,58 @@
 }
 
 .text1 {
-    font-size: medium;
+    font-size: x-large;
 }
 
 .text2 {
     font-family: 'Great Vibes', cursive;
+    font-size: 50px
 }
 
 .text3 {
-    font-size: medium;
-    color: grey
+    font-size: 25px;
+    color: grey;
+    text-decoration: bold;
 }
 
 .text4 {
-    font-size: medium;
+    font-size: 50px;
     color: grey;
     margin-bottom: 3%;
+
 }
 .text6 {
-    font-size: medium;
+    font-size: x-large;
     padding-left : 5%;
     padding-right : 5%;
     padding-top: 5%;
 }
-
+.timerbox {
+    margin-top: 2%;
+    color:black;
+    display: flex;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.daybox {
+    color:black;
+    width: 30%;
+    text-align: center;
+    border-style: double;
+}
+.monthbox {
+    color:black;
+    width: 30%;
+    text-align: center;
+    border-style: double;
+}
+.vertical {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width : 15%;
+    text-align: center;
+}
