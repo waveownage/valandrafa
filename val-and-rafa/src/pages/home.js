@@ -20,11 +20,11 @@ var monthcount = current.getMonth() +1
 console.log(monthcount)
 console.log(current)
 var month = 0
-if (days > 60) {
+if (days >= 31) {
     month = 2
     day= days - 60
 }
-if (days > 30) {
+if (days < 31) {
     month = 1
     day= days - 30
 }
