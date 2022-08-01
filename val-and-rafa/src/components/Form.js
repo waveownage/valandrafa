@@ -1,16 +1,24 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 
 export const Form = ({ onSubmit }) => {
     const [checked, setChecked] = React.useState(false);
+    const navigate = useNavigate();
 
 
     function refresh() {
       if(checked == true) {
-        window.location='/CABINS'
+        navigate("/CABINS")
+        window.scrollTo(0, 0);
+        setTimeout(() => {
+        window.location.reload(true)} , 1000);
+
       }
       else {
-        window.location.reload(false)
+        window.scrollTo(0, 0);
+        setTimeout(() => {
+        window.location.reload(true)}, 1000);
       }
     }
 

@@ -7,10 +7,6 @@ import Form from 'react-bootstrap/Form';
 
 
 const cabins = () =>{
-
-
-  
-
   return (
     <div className="cabinsbox">
       <h3 className="basictext1">Our wedding will take place at beautiful Lake Louisa State Park. Since accommodations fill up

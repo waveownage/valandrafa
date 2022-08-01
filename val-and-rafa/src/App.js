@@ -37,7 +37,6 @@ function App() {
         <header>
           <h1 className='logo'>Val & Rafa</h1>
         </header>
-        <Router>
         <NAVBAR />
           <Routes>
             <Route exact path='/'element={<Home/>}/>
@@ -48,7 +47,6 @@ function App() {
             <Route exact path='/Q&A'element={<QA/>}/>
             <Route exact path='/MOMENTS'element={<Moments/>}/>
           </Routes>
-        </Router>
         <Container className = "popup" triggerText={triggerText} onSubmit={onSubmit} />
       </div>
     </div>
