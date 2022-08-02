@@ -1,12 +1,45 @@
-import React from 'react';
 import image from './valarievenmo.PNG';
 import "./cabin.css"
 import Youtube from './youtube';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import React, { useState } from "react";
+import emailjs from '@emailjs/browser';
 
 
-const cabins = () =>{
+
+const Cabins = () =>{
+
+  const [val, setVal] = useState();
+  const [val2, setVal2] = useState();
+  const [val3, setVal3] = useState();
+
+  const templateParams = {
+    names : 'n/a',
+    room : 'n/a',
+    dinner : 'n/a'
+  }
+
+  function refresh() {
+      templateParams.names = val;
+      templateParams.room = val2;
+      templateParams.dinner = val3;
+      console.log(templateParams)
+      emailjs.send('service_9yjaola', 'template_w41zdb1', templateParams,'K7Zb46aXMbT_Miz-F')
+  .then(function(response) {
+     console.log('SUCCESS!', response.status, response.text);
+  }, function(error) {
+     console.log('FAILED...', error);
+  });
+      window.scrollTo(0, 0);
+      alert("Thank you for the RSVP!!!")
+      setTimeout(() => {
+      window.location.reload(true)} , 2000)
+    }
+    
+
+
+
   return (
     <div className="cabinsbox">
       <h3 className="basictext1">Our wedding will take place at beautiful Lake Louisa State Park. Since accommodations fill up
@@ -61,11 +94,11 @@ const cabins = () =>{
           <Form className="formbox">
           <h1 className='basictext'>Name(s) of people in your party:</h1>
             <Form.Group className="mb-3" controlId="party">
-              <Form.Control type="party"/>
+              <Form.Control value = {val} onChange={(e)=> setVal(e.target.value)} type="party"/>
             </Form.Group>
             <h1 className='basictext'>Choice of room:</h1>
             <Form.Group className="mb-3" controlId="room">
-              <Form.Select>
+              <Form.Select value = {val2} onChange={(e)=> setVal2(e.target.value)}>
               <option></option>
                 <option>Private room (sleeps 2): $135</option>
                 <option>Pull-out bed in living room (sleeps 2): $100</option>
@@ -74,14 +107,14 @@ const cabins = () =>{
             </Form.Group>
             <h1 className='basictext'>Will you be joining us for the welcome dinner on Friday 10/21 at 6pm by cabin 10?</h1>
             <Form.Group className="mb-3" controlId="room">
-              <Form.Select>
+              <Form.Select value = {val3} onChange={(e)=> setVal3(e.target.value)}>
               <option></option>
                 <option>Yes</option>
                 <option>No</option>
               </Form.Select>
             </Form.Group>
             <div className="box2">
-            <Button variant="success" type="submit">
+            <Button onClick={refresh} variant="success" type="submit">
               Submit
             </Button>
             </div>
@@ -102,4 +135,4 @@ const cabins = () =>{
     </div>
   );
 }
-export default cabins;
+export default Cabins;
