@@ -71,7 +71,7 @@ export const Form = ({ onSubmit }) => {
         templateParams.why = whyf;
         console.log(emailf)
         console.log(templateParams)
-        emailjs.send('service_9yjaola', 'template_asmcegp', templateParams,'K7Zb46aXMbT_Miz-F')
+        emailjs.send('service_9yjaola', 'service_44mih5p', templateParams,'K7Zb46aXMbT_Miz-F')
     .then(function(response) {
        console.log('SUCCESS!', response.status, response.text);
     }, function(error) {
@@ -81,7 +81,7 @@ export const Form = ({ onSubmit }) => {
         navigate("/CABINS")
         window.scrollTo(0, 0);
         setTimeout(() => {
-        window.location.reload(true)} , 2000);
+        window.location.reload(true)} , 1000);
 
       }
       else {

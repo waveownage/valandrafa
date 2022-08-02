@@ -25,7 +25,7 @@ const Cabins = () =>{
       templateParams.room = val2;
       templateParams.dinner = val3;
       console.log(templateParams)
-      emailjs.send('service_9yjaola', 'template_w41zdb1', templateParams,'K7Zb46aXMbT_Miz-F')
+      emailjs.send('service_9yjaola', 'service_44mih5p', templateParams,'K7Zb46aXMbT_Miz-F')
   .then(function(response) {
      console.log('SUCCESS!', response.status, response.text);
   }, function(error) {
@@ -34,7 +34,7 @@ const Cabins = () =>{
       window.scrollTo(0, 0);
       alert("Thank you for the RSVP!!!")
       setTimeout(() => {
-      window.location.reload(true)} , 2000)
+      window.location.reload(true)} , 1000)
     }
     
 
