@@ -40,10 +40,12 @@ const Cabins = () =>{
 
   return (
     <div className="cabinsbox">
-      <h3 className="basictext1">Our wedding will take place at beautiful Lake Louisa State Park. Since accommodations fill up
+      <h3 className="basictext1 ">Our wedding will take place at beautiful Lake Louisa State Park. Since accommodations fill up
         far in advance, we have already rented 16 lakeside cabins for Friday and Saturday night to
         ensure that guests who want to spend more time with us and party the night away under the
         stars, can do so without a care.
+        </h3>
+        <h3 className="basictext1 space">
         We are hosting an informal welcome dinner by the campfire on Friday evening for those guests
         staying in the cabins, with Venezuelan-Brasilian style hotdogs, s’mores and live music around
         the fire. We hope to unwind and spend time with all our favorite people together before the
@@ -122,9 +124,9 @@ const Cabins = () =>{
         <div className="videobox">
         <img className="venmophoto1" src={image} alt="venmophoto"/>
         </div>
-        <h1 className="center">Please reach out to Valerie or Rafa with any questions about the accommodations!</h1>
+        <h1 className="basictext center">Please reach out to Valerie or Rafa with any questions about the accommodations!</h1>
         <div className="videobox">
-        <mark className="spectext">Submit RSPV and Cabin Reservation</mark>
+        
         </div>
         
       </div>

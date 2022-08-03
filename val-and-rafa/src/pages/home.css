@@ -51,13 +51,13 @@
 }
 .daybox {
     color:black;
-    width: 30%;
+    width: 80%;
     text-align: center;
     border-style: double;
 }
 .monthbox {
     color:black;
-    width: 30%;
+    width: 80%;
     text-align: center;
     border-style: double;
 }
@@ -66,6 +66,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width : 15%;
+    width : 20%;
     text-align: center;
 }

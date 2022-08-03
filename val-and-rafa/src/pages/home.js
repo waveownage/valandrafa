@@ -48,13 +48,13 @@ const Home = () =>{
       <div className="timerbox">
         <div className="vertical">
         <div className="monthbox">
-          <h1 className ="basictext"> {month}</h1>
+          <h1 className ="text"> {month}</h1>
         </div>
         <h1 className ="basictext">months</h1>
         </div>
         <div className="vertical">
         <div className="daybox">
-          <h1 className ="basictext">{day}</h1>
+          <h1 className ="text">{day}</h1>
         </div>
           <h1 className ="basictext">days</h1>
           </div>

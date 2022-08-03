@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import './form.css'
 
 
 
@@ -118,7 +119,7 @@ export const Form = ({ onSubmit }) => {
         <h1 className="Headerstext">Enter your name and email to RSVP.</h1>
         </div>
       <div className="form-group">
-        <label  className="Headerstext" htmlFor="name">List Names of Party Members</label>
+        <label  className="Headerstext" htmlFor="name">Name(s) of people in your party:</label>
         <input ref={names} className="form-control" id="firstname" />
       </div>
       <div className="form-group">
@@ -150,7 +151,7 @@ export const Form = ({ onSubmit }) => {
           type="apology"
           className="form-control"
           id="apology"
-          placeholder="Why Not? *optional*"
+          placeholder="Provide a reason; (optional)"
         />
         </div>
 

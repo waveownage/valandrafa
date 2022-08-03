@@ -7,6 +7,9 @@ import guestfaq2 from './guestfaq2.PNG'
 const QA = () =>{
   return (
     <div className='q-abox'>
+      <h1 className='headerstext'>What’s the best way to get to the wedding venue/Lake Louisa?</h1>
+      <h2 className='basictext'>Lake Louisa State Park is located in Clermont, Florida. The closet airport to the park is the Orlando International Airport (MCO) which is approximately 38 miles or a 45 minute drive from the venue.
+If you’re spending time in Tampa before or after the wedding, the Tampa International Airport (TPA) is very close to downtown Tampa but further from the venue – approximately 81 miles or a 1 ½ hour drive to Lake Louisa.</h2>
       <h1 className='headerstext'>When is the RSVP deadline?</h1>
       <h2 className='basictext'>Please RSVP and reserve your cabin (using the Cabins tab) by August 31st so we can have an accurate headcount😊</h2>
       <h1 className='headerstext'>What’s the dress code?</h1>
