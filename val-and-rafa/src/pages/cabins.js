@@ -26,14 +26,14 @@ const Cabins = () =>{
       templateParams.dinner = val3;
       console.log(templateParams)
       emailjs.send('service_44mih5p', 'template_w41zdb1', templateParams,'K7Zb46aXMbT_Miz-F')
-      .then(function(response) {
+  .then(function(response) {
      console.log('SUCCESS!', response.status, response.text);
      window.scrollTo(0, 0);
       alert("Thank you for the RSVP!!!")
-      }, function(error) {
+  }, function(error) {
      console.log('FAILED...', error);
-     });
-      }
+  });
+    }
     
 
 
@@ -112,7 +112,7 @@ const Cabins = () =>{
               </Form.Select>
             </Form.Group>
             <div className="box2">
-            <Button onClick={refresh} variant="success">
+            <Button onClick={refresh} variant="success" type="submit">
               Submit
             </Button>
             </div>
