@@ -25,17 +25,15 @@ const Cabins = () =>{
       templateParams.room = val2;
       templateParams.dinner = val3;
       console.log(templateParams)
-      emailjs.send('service_9yjaola', 'service_44mih5p', templateParams,'K7Zb46aXMbT_Miz-F')
-  .then(function(response) {
+      emailjs.send('service_44mih5p', 'template_w41zdb1', templateParams,'K7Zb46aXMbT_Miz-F')
+      .then(function(response) {
      console.log('SUCCESS!', response.status, response.text);
-  }, function(error) {
-     console.log('FAILED...', error);
-  });
-      window.scrollTo(0, 0);
+     window.scrollTo(0, 0);
       alert("Thank you for the RSVP!!!")
-      setTimeout(() => {
-      window.location.reload(true)} , 1000)
-    }
+      }, function(error) {
+     console.log('FAILED...', error);
+     });
+      }
     
 
 
@@ -114,7 +112,7 @@ const Cabins = () =>{
               </Form.Select>
             </Form.Group>
             <div className="box2">
-            <Button onClick={refresh} variant="success" type="submit">
+            <Button onClick={refresh} variant="success">
               Submit
             </Button>
             </div>

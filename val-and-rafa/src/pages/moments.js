@@ -1,126 +1,116 @@
 import React from 'react';
 import './home.css';
-import PhotoAlbum from "react-photo-album";
 import image from './homepic.jpg';
+import Gallery from 'react-photo-gallery';
 
-
-const Moments = () =>{
-
-  const photos = [
-    {
-        src : image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 500,
-        height: 500
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 300,
-        height: 300
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 1000,
-        height: 1000
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
-    },
-    {
-        src: image,
-        width: 100,
-        height: 100
+export default class Moments extends React.Component {
+    render() {
+	return (
+	    <Gallery photos={PHOTO_SET} />
+	);
     }
-  ];
-
-  return (
-    <PhotoAlbum layout="columns" photos={photos} />
-  );
 }
-export default Moments;
+const PHOTO_SET = [
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  },
+  {
+    src: image,
+    width: 4,
+    height: 3
+  },
+  {
+    src: image,
+    width: 1,
+    height: 1
+  }
+  
+  
+];
