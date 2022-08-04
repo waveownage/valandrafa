@@ -11,6 +11,9 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 code {

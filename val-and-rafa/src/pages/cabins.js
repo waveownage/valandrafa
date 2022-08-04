@@ -122,7 +122,9 @@ const Cabins = () =>{
         </div>
         <h1 className="basictext">The couple can be reimbursed directly here:</h1>
         <div className="videobox">
-        <img className="venmophoto1" src={image} alt="venmophoto"/>
+          <a href="https://venmo.com/code?user_id=2229873712037888629&created=1659594780.99419&printed=1" target="_blank" rel="noreferrer">
+            <img className="venmophoto1" src={image} alt="venmophoto"/>
+          </a>
         </div>
         <h1 className="basictext center">Please reach out to Valerie or Rafa with any questions about the accommodations!</h1>
         <div className="videobox">

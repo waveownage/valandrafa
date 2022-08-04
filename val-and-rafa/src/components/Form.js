@@ -114,7 +114,7 @@ export const Form = ({ onSubmit }) => {
     <form onSubmit={onSubmit}>
         <div className="rsvptext">
         <h1 className="dancingtext1">Val & Rafa</h1>
-        <h1 className="dancingtext1">Lake Louisa</h1>
+        <h1 className="dancingtext1">Lake Louisa State Park</h1>
         <h1 className="dancingtext1">Sat, October 22, 2022</h1>
         <h1 className="Headerstext">Enter your name and email to RSVP.</h1>
         </div>

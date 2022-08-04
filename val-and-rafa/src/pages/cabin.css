@@ -36,7 +36,11 @@
     width : 50%
 }
 .venmophoto1 {
-    width: 30%;
+    width: 100%;
+}
+.venmophoto1:hover {
+    border-style: solid;
+    border-color: yellow;
 }
 .box1{
     display: flex;
@@ -64,4 +68,8 @@ li {
 
 .space {
     margin-bottom: 5%;
+}
+
+a{
+    width: 30%;
 }
