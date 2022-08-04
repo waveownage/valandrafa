@@ -126,3 +126,18 @@ header {
   width: 100%;
   margin-bottom: 2%;
 }
+
+@media screen and (max-width: 700px) {
+ 
+    .basictext1 {
+      font-family: 'Montserrat', sans-serif;
+      text-indent: 10%;
+      font-size: small;
+    }
+    .basictext {
+      font-family: 'Montserrat', sans-serif;
+      font-size: small;
+    }
+
+  
+}
