@@ -138,6 +138,22 @@ header {
       font-family: 'Montserrat', sans-serif;
       font-size: small;
     }
+    .headerstext {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+    }
+    .headerstext1 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 16px;
+    }
+    .dancingtext {
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+    }
+    .dancingtext1 {
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+    }
 
   
 }
