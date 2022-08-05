@@ -151,7 +151,7 @@ export const Form = ({ onSubmit }) => {
           type="apology"
           className="form-control"
           id="apology"
-          placeholder="Provide a reason; (optional)"
+          placeholder="Leave a message for the couple (optional)"
         />
         </div>
 
