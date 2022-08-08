@@ -125,6 +125,9 @@ const Cabins = () =>{
           <a href="https://venmo.com/code?user_id=2229873712037888629&created=1659594780.99419&printed=1" target="_blank" rel="noreferrer">
             <img className="venmophoto1" src={image} alt="venmophoto"/>
           </a>
+          <a className="addresslink" href="https://venmo.com/code?user_id=2229873712037888629&created=1659594780.99419&printed=1" target="_blank" rel="noreferrer">
+            Click Here To Be Taken To Venmo For Payment
+          </a>
         </div>
         <h1 className="basictext center">Please reach out to Valerie or Rafa with any questions about the accommodations!</h1>
         <div className="videobox">
