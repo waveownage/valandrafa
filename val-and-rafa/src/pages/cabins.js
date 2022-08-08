@@ -121,7 +121,7 @@ const Cabins = () =>{
           </Form>
         </div>
         <h1 className="basictext">The couple can be reimbursed directly here:</h1>
-        <div className="videobox">
+        <div className="fix">
           <a href="https://venmo.com/code?user_id=2229873712037888629&created=1659594780.99419&printed=1" target="_blank" rel="noreferrer">
             <img className="venmophoto1" src={image} alt="venmophoto"/>
           </a>

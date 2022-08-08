@@ -13,8 +13,8 @@ const Registry = () =>{
       <h1 className="headerstext">Honeymoon Fund</h1>
       <h1 className="basictext1">We have dreamed of a romantic getaway to the Maldives for years (I mean, who hasn't?), and we can't think of a better time to make this happen than our honeymoon – which we’re planning for January 2023. Your gift will help us make this dream a reality 😊 Please direct your contributions to Rafa’s venmo</h1>
       <img className="regphoto" src={image} alt="venmophoto"/>
-      <a href="https://venmo.com/code?user_id=3233782152822784144&created=1659881150" target="_blank" rel="noreferrer">
-      <img className="venmophoto" src={image2} alt="venmophoto"/>
+      <a className="fix"href="https://venmo.com/code?user_id=3233782152822784144&created=1659881150" target="_blank" rel="noreferrer">
+      <img className="fix"className="venmophoto" src={image2} alt="venmophoto"/>
       </a>
       <a className="addresslink" href="https://venmo.com/code?user_id=3233782152822784144&created=1659881150" target="_blank" rel="noreferrer">
             Click Here To Be Taken To Venmo For Contributions.
